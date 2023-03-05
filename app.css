@@ -41,9 +41,6 @@ body {
 
 }
 
-.header {
-  /* min-height: 200px; */
-}
 
 
 
@@ -51,11 +48,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px;
-  width: 97%;
-  position: fixed;
-  z-index: 3;
+  padding: 17px 0px;
   width: 100%;
+  position: fixed;
+  padding: 22px 0px 15px 0px;
 
 }
 
@@ -64,12 +60,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 30%;
+  min-width: 27%;
 
 }
 
-.nav-center a {
-  padding: 40px;
+.nav-link-center{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link-center a {
+  padding: 0px 39px;
+  margin-top: 3px;
   font-size: 16px;
   font-weight: 600;
   color: #cecece;
@@ -82,23 +86,35 @@ body {
 
 
 .nav-left {
-  min-width: 20%;
+  min-width: 20.3%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
 .nav-left img {
-  padding-top: 20px;
+padding: 20px 0px 0px 5px;
 
 }
 
 .nav-right {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  min-width: 100%;
+  margin-right: 10px;
+}
+.nav-link-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  padding-right: 20px;
+
 }
 
+.nav-link-right a{
+  margin: 0px 10px 0px 20px;
+}
 
 
 .nav-btn-nfts {
@@ -128,11 +144,6 @@ body {
 
 
 .main-img {
-
-  aspect-ratio: 2/1;
-}
-
-.main-img img {
   background-image: url('images/1.png');
   background-position: 50% 50%;
   width: 100%;
@@ -140,8 +151,10 @@ body {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-
+  aspect-ratio: 2/1;
 }
+
+
 
 
 .section-three {
